@@ -1,0 +1,6 @@
+13:48:39.891 [TestNG-tests-1] INFO  org.jsoup.Connection$Base - Driver intialized
+13:48:42.442 [TestNG-tests-1] INFO  org.jsoup.Connection$Base - Navigated to HomePage
+13:48:43.591 [TestNG-tests-1] INFO  org.jsoup.Connection$Base - Driver intialized
+13:48:45.721 [TestNG-tests-1] INFO  org.jsoup.Connection$Base - Navigated to HomePage : http://www.qaclickacademy.com/
+13:48:46.885 [TestNG-tests-1] INFO  org.jsoup.Connection$Base - Driver intialized
+13:48:48.712 [TestNG-tests-1] INFO  org.jsoup.Connection$Base - Navigated to HomePage

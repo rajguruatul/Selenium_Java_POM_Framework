@@ -1,0 +1,6 @@
+14:17:15.072 [TestNG-tests-4] INFO  org.jsoup.Connection$Base - Driver intialized
+14:17:20.731 [TestNG-tests-2] INFO  org.jsoup.Connection$Base - Navigated to HomePage
+14:17:21.051 [TestNG-tests-2] INFO  org.jsoup.Connection$Base - navigation Bar displayed successfully
+14:17:21.121 [TestNG-tests-2] INFO  org.jsoup.Connection$Base - Closing the Browser
+14:17:21.179 [TestNG-tests-3] INFO  org.jsoup.Connection$Base - Navigated to HomePage : http://www.qaclickacademy.com/
+14:17:21.209 [TestNG-tests-3] INFO  org.jsoup.Connection$Base - Successfully verified the Categoty Title

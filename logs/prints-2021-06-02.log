@@ -1,0 +1,7 @@
+01:22:09.689 [main] INFO  org.jsoup.Connection$Base - Driver intialized
+01:22:18.026 [main] INFO  org.jsoup.Connection$Base - Navigated to HomePage
+01:22:19.166 [main] INFO  org.jsoup.Connection$Base - Driver intialized
+01:22:22.710 [main] INFO  org.jsoup.Connection$Base - Navigated to HomePage
+01:22:22.749 [main] INFO  org.jsoup.Connection$Base - Successfully verified the Categoty Title
+01:22:22.791 [main] INFO  org.jsoup.Connection$Base - navigation Bar displayed successfully
+01:22:22.848 [main] INFO  org.jsoup.Connection$Base - Closing the Browser

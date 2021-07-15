@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-15T12:33:33 IST" name="Suite" finished-at="2021-07-15T12:33:52 IST" duration-ms="18192">
+    <groups>
+    </groups>
+    <test started-at="2021-07-15T12:33:33 IST" name="Validating Error Test" finished-at="2021-07-15T12:33:40 IST" duration-ms="6538">
+      <class name="TestFramework.HomePageTests">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestFramework.HomePageTests@7d3430a7]" started-at="2021-07-15T12:33:33 IST" name="initialize" finished-at="2021-07-15T12:33:40 IST" duration-ms="6404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:TestFramework.HomePageTests@7d3430a7]" started-at="2021-07-15T12:33:40 IST" name="basePageNavigation" finished-at="2021-07-15T12:33:40 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestFramework.HomePageTests@7d3430a7]" started-at="2021-07-15T12:33:40 IST" name="teardown" finished-at="2021-07-15T12:33:40 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestFramework.HomePageTests -->
+    </test> <!-- Validating Error Test -->
+    <test started-at="2021-07-15T12:33:33 IST" name="Validating navigationBar" finished-at="2021-07-15T12:33:41 IST" duration-ms="7319">
+      <class name="TestFramework.NavigationBarTests">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestFramework.NavigationBarTests@878452d]" started-at="2021-07-15T12:33:33 IST" name="initialize" finished-at="2021-07-15T12:33:41 IST" duration-ms="7197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateNavigationBar()[pri:0, instance:TestFramework.NavigationBarTests@878452d]" started-at="2021-07-15T12:33:41 IST" name="validateNavigationBar" finished-at="2021-07-15T12:33:41 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavigationBar -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestFramework.NavigationBarTests@878452d]" started-at="2021-07-15T12:33:41 IST" name="teardown" finished-at="2021-07-15T12:33:41 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestFramework.NavigationBarTests -->
+    </test> <!-- Validating navigationBar -->
+    <test started-at="2021-07-15T12:33:33 IST" name="Validating Title" finished-at="2021-07-15T12:33:42 IST" duration-ms="8581">
+      <class name="TestFramework.HomepageTests1">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestFramework.HomepageTests1@40e10ff8]" started-at="2021-07-15T12:33:33 IST" name="initialize" finished-at="2021-07-15T12:33:42 IST" duration-ms="8139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigationError()[pri:0, instance:TestFramework.HomepageTests1@40e10ff8]" started-at="2021-07-15T12:33:42 IST" name="basePageNavigationError" finished-at="2021-07-15T12:33:42 IST" duration-ms="25" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSES123] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at TestFramework.HomepageTests1.basePageNavigationError(HomepageTests1.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigationError -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestFramework.HomepageTests1@40e10ff8]" started-at="2021-07-15T12:33:42 IST" name="teardown" finished-at="2021-07-15T12:33:42 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestFramework.HomepageTests1 -->
+    </test> <!-- Validating Title -->
+    <test started-at="2021-07-15T12:33:33 IST" name="Login page tests" finished-at="2021-07-15T12:33:52 IST" duration-ms="18192">
+      <class name="TestFramework.LoginTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestFramework.LoginTest@2364305a]" started-at="2021-07-15T12:33:33 IST" name="initialize" finished-at="2021-07-15T12:33:40 IST" duration-ms="6795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="ClickOnResetPassword()[pri:0, instance:TestFramework.LoginTest@2364305a]" started-at="2021-07-15T12:33:40 IST" name="ClickOnResetPassword" finished-at="2021-07-15T12:33:41 IST" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnResetPassword -->
+        <test-method signature="EnterLoginDetails()[pri:0, instance:TestFramework.LoginTest@2364305a]" started-at="2021-07-15T12:33:41 IST" name="EnterLoginDetails" finished-at="2021-07-15T12:33:51 IST" duration-ms="10040" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Login']"}
+  (Session info: chrome=91.0.4472.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'SBWL-ARAJGURU', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\arajguru\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43705647d97e968ad2c8f7966d898b7e
+*** Element info: {Using=xpath, value=//span[normalize-space()='Login']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Login']"}
+  (Session info: chrome=91.0.4472.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'SBWL-ARAJGURU', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\arajguru\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64000}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43705647d97e968ad2c8f7966d898b7e
+*** Element info: {Using=xpath, value=//span[normalize-space()='Login']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:190)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:124)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:328)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:446)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
+at pageObjects.HomePage.getLogin(HomePage.java:32)
+at TestFramework.LoginTest.EnterLoginDetails(LoginTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterLoginDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestFramework.LoginTest@2364305a]" started-at="2021-07-15T12:33:52 IST" name="teardown" finished-at="2021-07-15T12:33:52 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestFramework.LoginTest -->
+    </test> <!-- Login page tests -->
+  </suite> <!-- Suite -->
+</testng-results>

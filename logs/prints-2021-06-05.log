@@ -1,0 +1,6 @@
+20:12:02.940 [TestNG-tests-2] INFO  org.jsoup.Connection$Base - Closing the Browser
+20:14:08.722 [TestNG-tests-2] INFO  org.jsoup.Connection$Base - Driver intialized
+20:14:08.722 [TestNG-tests-1] INFO  org.jsoup.Connection$Base - Driver intialized
+20:14:08.738 [TestNG-tests-3] INFO  org.jsoup.Connection$Base - Driver intialized
+20:14:13.061 [TestNG-tests-3] INFO  org.jsoup.Connection$Base - Navigated to HomePage
+20:14:13.286 [TestNG-tests-3] INFO  org.jsoup.Connection$Base - Successfully verified the Categoty Title
