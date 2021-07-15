@@ -30,7 +30,7 @@ public class baseTest
 	public WebDriver initializeDriver() throws IOException
 	{
 		Properties prop = new Properties();
-		FileInputStream fis=new FileInputStream("C:\\Users\\arajguru\\eclipse-workspace\\Practise1\\src\\main\\java\\resources\\data.properties");
+		FileInputStream fis=new FileInputStream(System.getProperty("user.dir") + "/src/main/java/resources/data.properties");
 		
 		prop.load(fis);
 		browser = prop.getProperty("browser");
@@ -41,7 +41,8 @@ public class baseTest
 		
 		if(browser.equals("chrome"))
 		{
-			WebDriverManager.chromedriver().setup();
+			//WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
 			driver=new ChromeDriver();
 			
 		}

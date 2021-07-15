@@ -41,7 +41,8 @@ public class baseTest
 		
 		if(browser.equals("chrome"))
 		{
-			WebDriverManager.chromedriver().setup();
+			//WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
 			driver=new ChromeDriver();
 			
 		}

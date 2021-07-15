@@ -1,6 +1,5 @@
-13:48:49.194 [TestNG-tests-1] INFO  org.jsoup.Connection$Base - navigation Bar displayed successfully
-13:48:49.228 [TestNG-tests-1] INFO  org.jsoup.Connection$Base - Successfully verified the Categoty Title
-13:49:00.441 [TestNG-tests-1] INFO  org.jsoup.Connection$Base - Closing the Browser
-13:49:00.500 [TestNG-tests-1] INFO  org.jsoup.Connection$Base - Closing the Browser
-13:49:00.546 [TestNG-tests-1] INFO  org.jsoup.Connection$Base - Closing the Browser
-13:49:00.596 [TestNG-tests-1] INFO  org.jsoup.Connection$Base - Closing the Browser
+18:36:18.916 [main] INFO  org.jsoup.Connection$Base - Navigated to HomePage : http://www.qaclickacademy.com/
+18:36:19.529 [main] INFO  org.jsoup.Connection$Base - Closing the Browser
+18:36:33.093 [main] INFO  org.jsoup.Connection$Base - Driver intialized
+18:36:34.801 [main] INFO  org.jsoup.Connection$Base - Navigated to HomePage : http://www.qaclickacademy.com/
+18:36:36.594 [main] INFO  org.jsoup.Connection$Base - Closing the Browser

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-15T13:48:34 IST" name="Suite" finished-at="2021-07-15T13:49:00 IST" duration-ms="25700">
+  <suite started-at="2021-07-15T14:13:09 IST" name="Suite" finished-at="2021-07-15T14:13:35 IST" duration-ms="26039">
     <groups>
     </groups>
-    <test started-at="2021-07-15T13:48:34 IST" name="Validating Title" finished-at="2021-07-15T13:49:00 IST" duration-ms="25700">
+    <test started-at="2021-07-15T14:13:09 IST" name="Validating Title" finished-at="2021-07-15T14:13:35 IST" duration-ms="26039">
       <class name="TestFramework.HomepageTests1">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:TestFramework.HomepageTests1@1af146]" started-at="2021-07-15T13:48:38 IST" name="initialize" finished-at="2021-07-15T13:48:42 IST" duration-ms="3705" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestFramework.HomepageTests1@1af146]" started-at="2021-07-15T14:13:12 IST" name="initialize" finished-at="2021-07-15T14:13:16 IST" duration-ms="3458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="basePageNavigationError()[pri:0, instance:TestFramework.HomepageTests1@1af146]" started-at="2021-07-15T13:48:48 IST" name="basePageNavigationError" finished-at="2021-07-15T13:48:48 IST" duration-ms="34" status="FAIL">
+        <test-method signature="basePageNavigationError()[pri:0, instance:TestFramework.HomepageTests1@1af146]" started-at="2021-07-15T14:13:23 IST" name="basePageNavigationError" finished-at="2021-07-15T14:13:23 IST" duration-ms="35" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [FEATURED COURSES123] but found [FEATURED COURSES]]]>
@@ -54,49 +54,49 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigationError -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestFramework.HomepageTests1@1af146]" started-at="2021-07-15T13:49:00 IST" name="teardown" finished-at="2021-07-15T13:49:00 IST" duration-ms="59" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestFramework.HomepageTests1@1af146]" started-at="2021-07-15T14:13:35 IST" name="teardown" finished-at="2021-07-15T14:13:35 IST" duration-ms="51" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestFramework.HomepageTests1 -->
       <class name="TestFramework.HomePageTests">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:TestFramework.HomePageTests@2a8d39c4]" started-at="2021-07-15T13:48:34 IST" name="initialize" finished-at="2021-07-15T13:48:38 IST" duration-ms="3839" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestFramework.HomePageTests@2a8d39c4]" started-at="2021-07-15T14:13:09 IST" name="initialize" finished-at="2021-07-15T14:13:12 IST" duration-ms="3552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="basePageNavigation()[pri:0, instance:TestFramework.HomePageTests@2a8d39c4]" started-at="2021-07-15T13:48:49 IST" name="basePageNavigation" finished-at="2021-07-15T13:48:49 IST" duration-ms="32" status="PASS">
+        <test-method signature="basePageNavigation()[pri:0, instance:TestFramework.HomePageTests@2a8d39c4]" started-at="2021-07-15T14:13:24 IST" name="basePageNavigation" finished-at="2021-07-15T14:13:24 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestFramework.HomePageTests@2a8d39c4]" started-at="2021-07-15T13:49:00 IST" name="teardown" finished-at="2021-07-15T13:49:00 IST" duration-ms="55" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestFramework.HomePageTests@2a8d39c4]" started-at="2021-07-15T14:13:35 IST" name="teardown" finished-at="2021-07-15T14:13:35 IST" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestFramework.HomePageTests -->
       <class name="TestFramework.NavigationBarTests">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:TestFramework.NavigationBarTests@4da602fc]" started-at="2021-07-15T13:48:45 IST" name="initialize" finished-at="2021-07-15T13:48:48 IST" duration-ms="2992" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestFramework.NavigationBarTests@4da602fc]" started-at="2021-07-15T14:13:19 IST" name="initialize" finished-at="2021-07-15T14:13:23 IST" duration-ms="3573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="validateNavigationBar()[pri:0, instance:TestFramework.NavigationBarTests@4da602fc]" started-at="2021-07-15T13:48:49 IST" name="validateNavigationBar" finished-at="2021-07-15T13:48:49 IST" duration-ms="44" status="PASS">
+        <test-method signature="validateNavigationBar()[pri:0, instance:TestFramework.NavigationBarTests@4da602fc]" started-at="2021-07-15T14:13:24 IST" name="validateNavigationBar" finished-at="2021-07-15T14:13:24 IST" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNavigationBar -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestFramework.NavigationBarTests@4da602fc]" started-at="2021-07-15T13:49:00 IST" name="teardown" finished-at="2021-07-15T13:49:00 IST" duration-ms="51" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestFramework.NavigationBarTests@4da602fc]" started-at="2021-07-15T14:13:35 IST" name="teardown" finished-at="2021-07-15T14:13:35 IST" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestFramework.NavigationBarTests -->
       <class name="TestFramework.LoginTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:TestFramework.LoginTest@25b2cfcb]" started-at="2021-07-15T13:48:42 IST" name="initialize" finished-at="2021-07-15T13:48:45 IST" duration-ms="3278" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TestFramework.LoginTest@25b2cfcb]" started-at="2021-07-15T14:13:16 IST" name="initialize" finished-at="2021-07-15T14:13:19 IST" duration-ms="3762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="ClickOnResetPassword()[pri:0, instance:TestFramework.LoginTest@25b2cfcb]" started-at="2021-07-15T13:48:49 IST" name="ClickOnResetPassword" finished-at="2021-07-15T13:48:50 IST" duration-ms="964" status="PASS">
+        <test-method signature="ClickOnResetPassword()[pri:0, instance:TestFramework.LoginTest@25b2cfcb]" started-at="2021-07-15T14:13:24 IST" name="ClickOnResetPassword" finished-at="2021-07-15T14:13:24 IST" duration-ms="673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnResetPassword -->
-        <test-method signature="EnterLoginDetails()[pri:0, instance:TestFramework.LoginTest@25b2cfcb]" started-at="2021-07-15T13:48:50 IST" name="EnterLoginDetails" finished-at="2021-07-15T13:49:00 IST" duration-ms="10045" status="FAIL">
+        <test-method signature="EnterLoginDetails()[pri:0, instance:TestFramework.LoginTest@25b2cfcb]" started-at="2021-07-15T14:13:24 IST" name="EnterLoginDetails" finished-at="2021-07-15T14:13:34 IST" duration-ms="10034" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Login']"}
@@ -105,8 +105,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
 System info: host: 'SBWL-ARAJGURU', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\arajguru\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: de3e0cff04bbf431be2f780b05e04cab
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\arajguru\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e06e607ec7b45ab798c652b7b2e7eb38
 *** Element info: {Using=xpath, value=//span[normalize-space()='Login']}]]>
             </message>
             <full-stacktrace>
@@ -116,8 +116,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
 System info: host: 'SBWL-ARAJGURU', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\arajguru\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57924}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: de3e0cff04bbf431be2f780b05e04cab
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\arajguru\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e06e607ec7b45ab798c652b7b2e7eb38
 *** Element info: {Using=xpath, value=//span[normalize-space()='Login']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
@@ -165,7 +165,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterLoginDetails -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestFramework.LoginTest@25b2cfcb]" started-at="2021-07-15T13:49:00 IST" name="teardown" finished-at="2021-07-15T13:49:00 IST" duration-ms="46" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestFramework.LoginTest@25b2cfcb]" started-at="2021-07-15T14:13:35 IST" name="teardown" finished-at="2021-07-15T14:13:35 IST" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
